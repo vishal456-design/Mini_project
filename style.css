@@ -1,0 +1,65 @@
+/*Adding google font here*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,600&display=swap');
+*{
+    font-family: Montserrat:ital;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    box-shadow: 50px 20px 100px rgb(0, 0, 0.2) ;
+    background-color: rgb(185, 172, 155);
+    z-index: 1; /* it always at top */
+}
+.navbar-nav{
+    list-style: none;
+    padding: 20px 0px;
+    vertical-align: middle;
+}
+.nav-item{
+    display: inline-block;/*came one inline*/
+    margin: 0px 20px;
+    padding-bottom: 0px;
+}
+.nav-link{
+    text-decoration: none;
+    color:red;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:black
+}
+article h1{ /*h1 inside article*/
+    font-size: 40;
+}
+.content{
+    background: linear-gradient(#e66465, #0198e5);
+    padding:10px 80px;
+    height: 100%vh;
+}
+.lang-image img{
+    width:200px;
+}
+.content > section{
+margin: 100px 0px;
+}
+.float-right{
+      float:right;
+      margin-left:50px;
+}
+.float-left{
+     float:left;
+     margin-right: 50px;
+}
+.bot-icon img{
+     width: 100px;
+
+}
+.bot-icon{
+    position: fixed;
+    right :20px;
+    bottom: 20px;
+}
